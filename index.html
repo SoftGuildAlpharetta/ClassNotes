@@ -1,0 +1,29 @@
+<!-- Say hello world in big bold letters! -->
+<style>
+    p {
+        color: red;
+    }
+
+    #hello-world-id {
+        color: blue;
+    }
+
+    .not-red {
+        color: black;
+        /* background-color: rgb(128, 202, 128); */
+    }
+</style>
+<h1 id="hello-world-id">
+    <p>Hello world</p>
+    <p class="not-red">not red</p>
+</h1>
+<script>
+    console.log('hello world');
+    const promptOutputValue = prompt("Hey there, what's your name?");
+    console.log(`Username is: ${promptOutputValue}`);
+    if (promptOutputValue === "David") {
+        alert(`Hello ${promptOutputValue}, I've concluded the only winning move is not to play.`);
+    } else {
+        alert(`Hello ${promptOutputValue}, welcome to my program, would you like to play a game?`);
+    }
+</script>
