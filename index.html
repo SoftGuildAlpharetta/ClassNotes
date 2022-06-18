@@ -1,5 +1,10 @@
 <!-- Say hello world in big bold letters! -->
 <style>
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
     p {
         color: burlywood;
     }
@@ -14,8 +19,10 @@
     }
 </style>
 <h1 id="hello-world-id">
-    <p>Hello world</p>
-    <p class="not-red">not red</p>
+    <div class="centered-container">
+        <p>Hello world</p>
+        <p class="not-red">not red</p>
+    </div>
 </h1>
 <script>
     console.log('hello world');
