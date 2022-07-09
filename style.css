@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: burlywood;
+}
+
+#hello-world-id {
+    color: blue;
+}
+
+.not-red {
+    color: black;
+    /* background-color: rgb(128, 202, 128); */
+}
