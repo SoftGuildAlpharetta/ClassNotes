@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,22 @@
     <link rel="stylesheet" href="style.css">
     <title>Hello World!</title>
 </head>
+
 <body>
-    <h1 id="hello-world-id">
-        <div class="centered-container">
-            <p>Hello world</p>
-            <p class="not-red">not red</p>
-        </div>
-    </h1>
+    <div id="guest-book" class="centered-container">
+        <h4>Hello world!</h4>
+        <ul id="guest-book-list">
+
+        </ul>
+    </div>
+    <div class="centered-container">
+        <form>
+            <input id="name-input" type="text" placeholder="Name...">
+            <input id="bday-input" type="date" placeholder="Birthday...">
+            <button id="submit-btn">Submit</button>
+        </form>
+    </div>
     <script src="app.js"></script>
 </body>
+
 </html>
